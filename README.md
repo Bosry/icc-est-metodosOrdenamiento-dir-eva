@@ -16,11 +16,11 @@ Implementar la clase `CarController` con métodos de ordenamiento que funcionen 
 
 Cada objeto `Car` posee los siguientes atributos:
 
-- `brand`: marca del auto (String)
+- `name`: marca del auto (String)
 - `year`: año del auto (int)
 
 La clase debe incluir:
-- Constructor: `Car(String brand, int year)`
+- Constructor: `Car(String name, int year)`
 - Métodos getter: `getBrand()`, `getYear()`
 - Método `toString()` para representación en texto
 
