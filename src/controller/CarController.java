@@ -15,7 +15,7 @@ public class CarController {
               cars[j + 1] = cars[j];
               j--;
           }
-          cars[j + 1] = cars[i];
+          cars[j + 1] = key;
         }
         printCars(cars);
     }
